@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">TextSentry</string>
+    <string name="notification_listener_label">TextSentry Live SMS Filter</string>
+
+    <!-- Navigation -->
+    <string name="nav_shield">Shield</string>
+    <string name="nav_test">Test</string>
+    <string name="nav_rules">Rules</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Protection Status -->
+    <string name="status_shield_active">Shield Active</string>
+    <string name="status_shield_paused">Protection Paused</string>
+    <string name="status_live_listener_connected">Live Android SMS Filtering On</string>
+    <string name="status_live_listener_needed">Enable Notification Access</string>
+    <string name="action_enable_live_access">Enable Access</string>
+    <string name="action_open_settings">Open Settings</string>
+    <string name="privacy_badge_local">Local Privacy-First • No Account</string>
+
+    <!-- AI Notice -->
+    <string name="ai_preview_notice_title">AI Smart Filter: Local Preview Mode</string>
+    <string name="ai_preview_notice_body">Cloud Gemini AI features require Firebase AI Logic. Currently running local sample classification + full custom rules engine.</string>
+
+    <!-- Categories -->
+    <string name="cat_inbox">Inbox</string>
+    <string name="cat_transactions">Transactions</string>
+    <string name="cat_promotions">Promotions</string>
+    <string name="cat_junk">Junk</string>
+
+    <!-- Sensitivity -->
+    <string name="sensitivity_low">Low</string>
+    <string name="sensitivity_balanced">Balanced</string>
+    <string name="sensitivity_high">High</string>
+    <string name="sensitivity_maximum">Maximum</string>
+
+    <!-- Rules -->
+    <string name="rules_priority_title">Your Rules Come First</string>
+    <string name="rules_priority_desc">Custom rules always run before the Smart Filter. If an Allow rule and a Block rule both match, Allow takes priority.</string>
+    <string name="add_rule">Add Rule</string>
+
+    <!-- Tester -->
+    <string name="test_screen_title">Test Filter</string>
+    <string name="test_screen_subtitle">Preview exactly which folder TextSentry sorts any message into and why.</string>
+    <string name="test_sender_label">Sender (Phone, Shortcode, or ID)</string>
+    <string name="test_message_label">Message Content (English, فارسی, …)</string>
+    <string name="test_run_button">Analyze Message</string>
+    <string name="test_clear_button">Clear</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Filter Settings</string>
+    <string name="settings_keep_transactions">Keep Transactions in Main Inbox</string>
+    <string name="settings_keep_transactions_desc">Bank verification codes, OTPs, receipts, and delivery alerts stay in your primary inbox.</string>
+    <string name="settings_zero_retention">Zero-Retention Privacy Mode</string>
+    <string name="settings_zero_retention_desc">Never store message text on disk. Only anonymized folder counters are kept locally.</string>
+    <string name="settings_auto_dismiss_junk">Auto-Dismiss Junk Alerts</string>
+    <string name="settings_auto_dismiss_junk_desc">Automatically silence and dismiss incoming SMS notifications classified as Junk.</string>
+</resources>
